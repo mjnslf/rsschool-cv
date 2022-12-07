@@ -2,10 +2,12 @@
 
 ## Contacts
 * location: Almaty, Kazakhstan
-* discord : freckless
 * e-mail  : frecklessmadina@gmail.com
+* discord : Madina(@<a href="https://github.com/mjnslf">mjnslf</a>)
+* Linkedin: <a href="https://www.linkedin.com/in/madinae/">madina</a>
 
 ## About Me
+I'm a student of School 21 - an educational initiative (Ecole 42 in France) where we work on individual and team projects. I am an aspiring specialist who is looking for a new and promising position where I can develop and demonstrate my skills.
 
 ## Skills
 * C/C++
@@ -33,6 +35,6 @@
 * Saint-Petersburg State University of Industrial Technologies and Design
 
 ## Languages
-* English (intermediate)
+* English <a href="https://www.efset.org/cert/3nHGc3">(intermediate)</a>
 * Rissian (Advanced)
 * Kazakh (Native)
