@@ -67,8 +67,34 @@ body{
     text-transform: uppercase;
     font-weight: 200;
     margin-top: 20px;
-
 }
+
+.contacts{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contacts ul li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.contacts ul li .icon{
+    color: rgb(223, 208, 241)
+}
+
+.title{
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
 
 .container .right_block{
     position: relative;
