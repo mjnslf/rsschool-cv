@@ -3,3 +3,59 @@
     background: rgb(238, 229, 255);
     padding: 40px;
 }
+
+.about{
+    margin-bottom: 50px;
+    color: rgb(138, 102, 142);
+}
+
+.about ul li a{
+    color: rgb(138, 102, 142);
+}
+
+.about h3{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.about p{
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.about ul li{
+    list-style: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.about ul .description{
+    text-transform: lowercase;
+    color: rgba(188, 163, 197, 0.775);
+}
+
+pre {
+    display:flex;
+    position: relative;
+    margin-top: 10px;
+    padding-left: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: hsla(300, 22%, 82%, 0.761);
+
+}
+footer{
+    padding: 10px;
+    color:  rgb(19, 18, 20);
+    background-color:hsla(300, 22%, 82%, 0.761);
+    width: min-content;
+}
+
+.skills{
+    margin-right: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}

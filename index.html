@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="right_block.css">
 </head>
 <body>
+
     <div class="container">
         <div class="left_block">
             <div class="Text">
@@ -43,8 +44,8 @@
                 <h4 class="title">Education</h4>               
                 <ul>
                     <li>
-                        <h5>School of programming 21(echole 42)</h5>
-                        <h6>computer science</h6>
+                        <h5>School of programming 21<br>(echole 42)</h5>
+                        <h6>programming and computer science</h6>
                         <h6>2021 - still learning</h6>
                     </li>
                     <li>
@@ -61,7 +62,7 @@
                     <li>
                         <span class="text">English</span>
                         <span class="level">
-                            <div style="width: 68%;"></div>
+                            <div style="width: 58%;"></div>
                         </span>
                     </li>
                     <li>
@@ -73,14 +74,81 @@
                     <li>
                         <span class="text">Kazakh</span>
                         <span class="level">
-                            <div style="width: 99%;"></div>
+                            <div style="width: 97%;"></div>
                         </span>
                     </li>
                 </ul>
             </div>
 
+
         </div>
-        <div class="right_block"></div>
+        <div class="right_block">
+            <div class="about">
+                <h3>About me</h3>
+                <p>I'm a student of School 21 - an educational initiative (Ecole 42 in France) 
+                    where we work on individual and team projects. 
+                    I am an aspiring specialist who is looking for a new 
+                    and promising position where I can develop and demonstrate my skills.</p>
+                <h3>projects</h3>
+                <h5>In private repositories. access on request</h5>
+                <ul>
+                    <li> <a href="https://github.com/mjnslf/Philosophers">Philosophers</a></li>
+                    <span class="description">Using multithreading</span>
+
+                    <li> <a href="https://github.com/mjnslf/42_FDF">FDF</a></li>
+                    <span class="description">Using an external graphics library Minilibx</span>
+                    <span class="description">Rendering a 3D map from a 2D view</span>
+                
+                    <li> <a href="https://github.com/mjnslf/Minitalk">Minitalk</a></li>
+                    <span class="description">Server-client mini-chat</span>
+                    <span class="description">Using the SIGUSR1 and SIGUSR2 signals to send a message</span>
+                </ul>
+                <br>
+                <br>
+                <h3>skills</h3>
+                <span class="skills">C/C++</span>
+                <span class="skills">Python</span>
+                <span class="skills">Unix/Shell</span>
+                <span class="skills">Git</span>
+                <br>
+                <br>
+                <h3>example of code</h3>
+                <pre>
+                <code>
+void	draw_line(t_fdf *fdf, t_fdf a, fdf b)
+{
+	fdf->step_x = abs(b.rx - a.rx);
+	fdf->step_y = abs(b.ry - a.ry);
+	fdf->deltaerr = fdf->step_x - fdf->step_y;
+	while (a.rx != b.rx || a.ry != b.ry)
+	{
+		mlx_pix_put(fdf, a.rx, a.ry, color(b.z));
+		if ((fdf->deltaerr * 2) > -(fdf->step_y))
+		{
+			fdf->deltaerr -= fdf->step_y;
+			if (a.rx < b.rx)
+				a.rx += 1;
+			else
+				a.rx += (-1);
+		}
+		if ((fdf->deltaerr * 2) < fdf->step_x)
+		{
+			fdf->deltaerr += fdf->step_x;
+			if (a.ry < b.ry)
+				a.ry += 1;
+			else
+				a.ry += (-1);
+		}
+	}
+}
+                </code>
+                </pre>
+                </div>
+
+        </div>
+        <footer>
+            <p>© 2022</p>
+        </footer>
     </div>
 </body>
 </html>

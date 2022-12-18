@@ -51,7 +51,7 @@ body{
     left: 0;
     width: 130%;
     height: 169%;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 .Text h2{
@@ -60,6 +60,7 @@ body{
     text-transform: uppercase;
     font-weight: 500;
     margin-top: 15px;
+    letter-spacing: 1px;
 }
 .Text h4{
     color: azure;
@@ -67,6 +68,7 @@ body{
     text-transform: uppercase;
     font-weight: 200;
     margin-top: 20px;
+
 }
 
 .contacts{
@@ -107,21 +109,25 @@ body{
 
 .edu h5{
     color: azure;
-    font-weight: 400px;
+    font-weight: 600px;
+    letter-spacing: 1px;
 }
 
 .edu h6{
     color: rgb(240, 232, 248);
+    letter-spacing: 1px;
 }
 
 .language{
     padding-top: 60px;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .language li{
     list-style: none;
     margin-top: 15px;
+    color: rgb(243, 237, 248)
 }
 
 .language .level{
@@ -139,6 +145,4 @@ body{
     left: 0;
     height: 100%;
     background: rgb(136, 110, 151);
-
-
 }
