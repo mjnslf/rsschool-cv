@@ -56,9 +56,18 @@ body{
 
 .Text h2{
     color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 15px;
 }
-.Text h3{
+.Text h4{
     color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: 20px;
+
 }
 
 .container .right_block{
