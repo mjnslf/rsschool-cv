@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="right_block.css">
 </head>
@@ -105,10 +105,10 @@
                 <br>
                 <br>
                 <h3>skills</h3>
-                <span class="skills">C/C++</span>
-                <span class="skills">Python</span>
-                <span class="skills">Unix/Shell</span>
-                <span class="skills">Git</span>
+                    <span class="skills">C/C++</span>
+                    <span class="skills">Python</span>
+                    <span class="skills">Unix/Shell</span>
+                    <span class="skills">Git</span>
                 <br>
                 <br>
                 <h3>example of code</h3>
@@ -125,15 +125,15 @@ void	draw_line(t_fdf *fdf, t_fdf a, fdf b)
 		if ((fdf->deltaerr * 2) > -(fdf->step_y))
 		{
 			fdf->deltaerr -= fdf->step_y;
-			if (a.rx < b.rx)
+			if (a.rx<b.rx)
 				a.rx += 1;
 			else
 				a.rx += (-1);
 		}
-		if ((fdf->deltaerr * 2) < fdf->step_x)
+		if ((fdf->deltaerr * 2) <fdf->step_x)
 		{
 			fdf->deltaerr += fdf->step_x;
-			if (a.ry < b.ry)
+			if (a.ry <b.ry)
 				a.ry += 1;
 			else
 				a.ry += (-1);
