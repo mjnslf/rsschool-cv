@@ -139,6 +139,18 @@ body{
     margin-top: 5px;
 }
 
+.language .level .en{
+    width: 58%;
+}
+
+.language .level .ru{
+    width: 90%;
+}
+
+.language .level .kz{
+    width: 97%;
+}
+
 .language .level div{
     position: absolute;
     top: 0;
