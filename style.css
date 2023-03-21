@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: rgb(238, 232, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: rgb(218, 204, 230);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(235, 204, 250);
+}
+.container .left_block{
+    position: relative;
+    background: rgb(176, 144, 180);
+    padding: 40px;
+}
+
+.Text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid azure;
+}
+
+.Text .image{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.Text img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 130%;
+    height: 169%;
+    object-fit:cover;
+}
+
+.Text h1{
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 15px;
+    letter-spacing: 1px;
+}
+.Text h4{
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: 20px;
+
+}
+
+.contacts{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.contacts ul li{
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.contacts ul li .icon{
+    color: rgb(223, 208, 241)
+}
+
+.title{
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.edu{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.edu ul li{
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.edu h5{
+    color: azure;
+    font-weight: 600px;
+    letter-spacing: 1px;
+}
+
+.edu h6{
+    color: rgb(240, 232, 248);
+    letter-spacing: 1px;
+}
+
+.language{
+    padding-top: 60px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.language li{
+    list-style: none;
+    margin-top: 15px;
+    color: rgb(243, 237, 248)
+}
+
+.language .level{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgb(195, 175, 205);
+    display: block;
+    margin-top: 5px;
+}
+
+.language .level .en{
+    width: 58%;
+}
+
+.language .level .ru{
+    width: 90%;
+}
+
+.language .level .kz{
+    width: 97%;
+}
+
+.language .level div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(136, 110, 151);
+}
